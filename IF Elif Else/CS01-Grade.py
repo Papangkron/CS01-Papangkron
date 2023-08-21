@@ -1,11 +1,10 @@
 scoreA = int(input("กรุณาใส่คะเเนนเก็บของคุณ: "))
 scoreB = int(input("กรุณาใส่คะเเนนกลางภาคของคุณ: "))
 scoreC = int(input("กรุณาใส่คะเเนนปลายภาคของคุณ: "))
-if scoreA > 30:
-    print("punna gay")
+
 grade = (scoreA + scoreB + scoreC)
 if grade > 100:
-    grade = "โกง"
+    grade = "g"
 elif grade >= 80:
     grade = 'A'
 elif grade >= 75:
